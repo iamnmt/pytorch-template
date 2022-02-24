@@ -2,6 +2,7 @@ import torch
 import numpy as np
 import random
 
+SEED = 403030
 
 def set_seed(seed):
     np.random.seed(seed)
